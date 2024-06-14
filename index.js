@@ -22,7 +22,7 @@ class product_content(){
             return this.total;
         }
 
-        if (name == document.getElementById('sec3-name')){
+        else if (name == document.getElementById('sec3-name')){
             this.total= document.createElement('div');
             this.image = document.getElementById('sec3-img');
             image.src=`data:image/jpg;base64,${product_image}`;
